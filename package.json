@@ -1,0 +1,19 @@
+{
+  "name": "biot-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./clicore.js",
+  "scripts": {},
+  "bin": {
+    "biot-cli": "./clicore.js"
+  },
+  "author": "ivan chikishev",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "biot-core": "git+https://github.com/BIoTws/biot-core.git",
+    "biot-wsocket": "git+https://github.com/BIoTws/biot-wsocket.git",
+    "biot-rpc": "git+https://github.com/BIoTws/biot-rpc.git",
+    "commander": "^2.16.0"
+  }
+}
